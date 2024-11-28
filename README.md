@@ -5,6 +5,8 @@ Aulas de PHP com Conceitos da linguagem<br>
 Aulas PHP
 * [x] Comando echo e print
 * [x] Variáveis e Constantes
+* [x] Estrutura Condicional IF ELSE
+* [x] Estrutura Condicional Switch Case
 
 Bibliografia <br>
 

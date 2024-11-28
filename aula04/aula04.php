@@ -29,7 +29,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula de PHP 06 Estrutura Condicional Switch Case</title>
+    <title>Aula de PHP 04 Estrutura Condicional Switch Case</title>
 </head>
 <body>
     <h2>Estrutura Condicional Switch Case</h2>

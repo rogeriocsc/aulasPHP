@@ -20,7 +20,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula de PHP 05 Estrutura Condicional IF ELSE</title>
+    <title>Aula de PHP 03 Estrutura Condicional IF ELSE</title>
 </head>
 <body>
     <h2>Estrutura Condicional IF ELSE</h2>

@@ -17,7 +17,11 @@
     echo "Constante - Número1 = ".num1."<br>";
     echo "Constante - Número2 = ".num2."<br>";
 
-    
+    const valor1 = 50; 
+    const texto = "Texto";
+
+    echo "Constante - Valor1: ".valor1."<br>";
+    echo "Constante - texto = ".texto."<br>";
 ?>
 
 <!DOCTYPE html>

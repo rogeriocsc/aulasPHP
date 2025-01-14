@@ -1,28 +1,27 @@
 <?php 
-    // IF - ELSE
-
-    $nota1 = 8;
-    $nota2 = 7;
-    $media = ($nota1 + $nota2) / 2;
-    if ($media >= 7) {
-        echo "Média: ".$media." <br> Situação: Aluno APROVADO!";
-    } elseif ($media >= 5 & $media < 7) {
-        echo "Média: ".$media." <br> Situação: Aluno em RECUPERAÇÃO!";
-    } else {
-        echo "Média: ".$media." <br> Situação: Aluno REPROVADO!";
-    }
+    $valorA = 10;
+    $valorB = 14.58;
+    $nome = "Mauricio";
+    $logico = false;
     
+    var_dump($valorA);
+    echo "<br>";
+    var_dump($valorB);
+    echo "<br>";
+    var_dump($nome);
+    echo "<br>";
+    var_dump($logico);
 ?>
-
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula de PHP 03 Estrutura Condicional IF ELSE</title>
+    <title>Aula 03 PHP</title>
 </head>
 <body>
-    <h2>Estrutura Condicional IF ELSE</h2>
+    <h2>Tipos primitivos do PHP</h2>  
 </body>
 </html>
+<!-- var_dump() Esta função exibe informações estruturadas sobre uma ou mais expressões que incluem seu tipo e valor. -->

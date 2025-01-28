@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* paleta de cores 
+Turquesa Escura - #00ced1
+Azul médio - #0000cd */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p, h1, h2, label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, #00ced1, #0000cd);
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    overflow: hidden;
+    width: 470px;
+    height: 460px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.259);
+    transform: translate(-50%, -50%);
+}
+
+section.login > div.imagem {
+    display: block;
+    height: 140px;
+    background-image: url(../imagens/img-form.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+div.formulario > h1 {
+    text-align: center;
+    margin: 10px;
+    color: #1b1b7c;
+}
+
+div.campo {
+    text-align: center;
+}
+
+div.campo > label {
+    display: block;
+    margin-left: 20%;
+    text-align: left;
+    font-size: 1.1em;
+    color: #1a1a75;
+}
+
+div.campo > input {
+    width: 60%;
+    height: 100%;
+    border: 2.4px solid #0B2559;
+    padding: 10px;
+    margin: 8px 0px;
+    border-radius: 8px;
+}
+
+div.campo > input:focus-within {
+    background-color: #dbf7c2;
+    outline: none;
+}
+
+form > button {
+    display: block;
+    margin: 18px auto;
+    font-size: 1em;
+    width: 145px;
+    height: 44px;
+    border: none;
+    background-color: #1a1a75;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+form > button:hover {
+    background-color: #2525a1;
+}
+
+/* pagina cad.php */
+h2 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 2em;
+}
+
+.resultado {
+    max-width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.259);
+    border-radius: 10px;
+}

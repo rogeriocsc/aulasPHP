@@ -8,8 +8,10 @@
     <title>Resultado</title>
 </head>
 <body>
-    <main>
+    <header>
         <h2>Resultado</h2>
+    </header>
+    <main>
         <div class="resultado">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequatur, fugit, placeat porro quis et quaerat asperiores iure vel ullam, minus qui dicta debitis provident ipsam error rerum eum? Tempora.</p>
         </div>

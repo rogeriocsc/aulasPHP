@@ -13,8 +13,20 @@
     </header>
     <main>
         <div class="resultado">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequatur, fugit, placeat porro quis et quaerat asperiores iure vel ullam, minus qui dicta debitis provident ipsam error rerum eum? Tempora.</p>
+            <?php 
+                // var_dump($_REQUEST); Similar ao get ou post
+                $nome = $_GET["nome"] ?? "Sem Nome";
+                $sobrenome = $_GET["sobrenome"] ?? "Desconhecido";  
+                echo "<p> É um prazer te conhecer, <strong> $nome $sobrenome 
+                </strong> Este é meu site";    
+            ?>
+            <p><a href="javascript:history.go(-1)">Voltar para a página anterior</a></p>
         </div>
     </main>
 </body>
 </html>
+
+<!-- $_GET[] variável super global -->
+<!-- https://www.php.net/manual/pt_BR/migration70.new-features.php
+O operador de coalescência nula (??) foi adicionado como um truque sintático para o caso trivial de precisar usar um ternário em conjunto com a função isset(). Ele retorna o primeiro operando se este existir e não for null; caso contrário retorna o segundo operando.
+Só existe do php 7 para cima -->

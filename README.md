@@ -2,14 +2,16 @@ Sobre
 ___
 Aulas de PHP com Conceitos da linguagem<br>
 <br>
-Aulas PHP
-* [x] Comando echo e print
-* [x] Variáveis e Constantes
-* [x] Exemplo var_dump()
-* [x] Interação com Formulários
 
-Bibliografia <br>
-
-<li><a href="https://developer.mozilla.org/pt-BR/docs/Web#documenta%C3%A7%C3%A3o_para_desenvolvedores_web" target="_blank">Documentação</a></li><br>
-
-<li><a href="https://www.php.net/manual/pt_BR/" target="_blank">Manual PHP</a></li><br>
+<h2>Vantagens da Linguagem PHP</h2>
+<p>
+    PHP, uma das linguagens de programação mais populares do mundo, oferece diversas vantagens
+    que a tornam uma escolha frequente para o desenvolvimento web. Vamos explorar algumas dessas
+    vantagens:
+</p>
+<h2>Facilidade de Aprendizagem e Uso</h2>
+<p>
+    PHP é conhecido por sua sintaxe simples e fácil de aprender, especialmente para iniciantes. A curva
+    de aprendizado é suave, o que permite que novos desenvolvedores comecem a criar aplicações web
+    rapidamente.
+</p>

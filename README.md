@@ -1,7 +1,6 @@
 Sobre
 ___
 Aulas de PHP com Conceitos da linguagem<br>
-<br>
 
 <h2>Vantagens da Linguagem PHP</h2>
 <p>
